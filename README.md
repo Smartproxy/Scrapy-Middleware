@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="Smartproxy logo" width="200" height="50"></a>
+    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
   </a>
 </p>
 
@@ -9,7 +9,7 @@
 
 ### Disclaimer
 
-In case you are not aware of what Scrapy is or how it works, we suggest to reseach [Scrapy](https://docs.scrapy.org/en/latest/) documentation in order to continue development with this tool.
+In case you are not aware of what Scrapy is or how it works, we suggest researching [Scrapy](https://docs.scrapy.org/en/latest/) documentation in order to continue development with this tool.
 
 ### Prerequisites
 
@@ -23,14 +23,13 @@ Once you get Scrapy up and running if you have not yet, make sure that you creat
 scrapy startproject yourprojectname
 ```
 
-<img src="https://content.screencast.com/users/JohanSP/folders/Jing/media/f974b1de-dc9c-4d53-9d43-9215f8742dc9/startproject.png">
+<img src="https://i.imgur.com/smbyhNw.png" alt="scrapy startproject anaconda prompt">
 
 When project directory is setup, you can deploy our middleware:
 
 1. Open Terminal window.
 2. Navigate to the main directory of your project folder using `cd yourprojectname`
 3. Download our proxy middleware using the following command: `curl https://raw.githubusercontent.com/Smartproxy/Scrapy-Middleware/master/smartproxy_auth.py > smartproxy_auth.py`
-<img src="https://smartproxy.com/wp-content/uploads/2019/07/smartproxy-scrapy-proxy-middleware-1-.png" alt="curl smartproxy scrapy proxy middleware">
 4. You should now see your project folder populated with *smartproxy_auth.py* file.
 <img src="https://file2.api.drift.com/drift-prod-file-uploads/94bb%2F94bb73fc522c281e170a6cc81a077ab5/3.png?mimeType=image%2Fpng">
 
